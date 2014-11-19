@@ -1,12 +1,12 @@
 {
-  "name": "backbone-testing",
+  "name": "NpmBowerBackboneJasmine",
   "version": "0.0.7",
   "description": "Backbone.js testing examples.",
-  "author": "Ryan Roemer <ryan@loose-bits.com>",
-  "homepage": "http://backbone-testing.com/",
+  "author": "SGoemans",
+  "homepage": "",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sgoemans/NpmBowerJasmine/"
+    "url": "git://github.com/sgoemans/NpmBowerBackboneJasmine/"
   },
   "devDependencies": {
     "bower": "1.2.7",
