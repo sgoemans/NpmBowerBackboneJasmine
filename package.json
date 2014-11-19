@@ -6,7 +6,7 @@
   "homepage": "http://backbone-testing.com/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ryan-roemer/backbone-testing/"
+    "url": "git://github.com/sgoemans/NpmBowerJasmine/"
   },
   "devDependencies": {
     "bower": "1.2.7",
