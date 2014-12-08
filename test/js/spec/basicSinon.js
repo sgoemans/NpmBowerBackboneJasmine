@@ -13,7 +13,7 @@ describe('Basic Sinon tests', function() {
 		expect(obj.multiply(5, 2)).toEqual(10);
 		sinon.assert.calledWith(obj.multiply, 5, 2);
 		// The wrapped object gains a few new methods like 'returned()' and 'restore()'.
-		// These methods will be gone after a 'obj.multiplay.restore()' or 'obj.error.restore()'
+		// These methods will be gone after a 'obj.multiply.restore()' or 'obj.error.restore()'
 		expect(obj.multiply.returned(10)).toBeTruthy();
 		try {
 			obj.error("Foo");

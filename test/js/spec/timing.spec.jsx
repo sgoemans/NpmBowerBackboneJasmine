@@ -10,7 +10,7 @@ describe("Test timing", function () {
 		setTimeout(function () {
 			expect("hi").toEqual("hi");
 			done();
-		}, 40);
+		}, 50);
 	});
 	it("should be a slow test", function (done) {
 		setTimeout(function () {
