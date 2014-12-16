@@ -17,10 +17,6 @@ describe("App.Views.NoteView", function() {
 		});
 
 	});
-	afterEach(function () {
-		// Destroying the model also destroys the view.
-		self.view.model.destroy();
-	});
 	it("can render more complicated markdown", function (done) {
 		self.view.model.once("change", function () {
 			var $title = $("#pane-title"),
@@ -40,5 +36,9 @@ describe("App.Views.NoteView", function() {
 				"* List item 1\n" +
 				"* List item 2"
 		});
+	});
+	afterEach(function () {
+		// Destroying the model also destroys the view.
+		self.view.model.destroy();
 	});
 });
